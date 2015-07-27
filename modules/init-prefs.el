@@ -17,10 +17,10 @@
 ;;; UI -- see init-look-and-feel.el
 
 (defcustom exordium-preferred-fonts
-  '(("Consolas"  . 120)
-    ("Monaco"    . 120)
-    ("Monospace" . 120)
-    ("Mono"      . 120))
+  '(("Consolas"  . 100)
+    ("Monaco"    . 100)
+    ("Monospace" . 100)
+    ("Mono"      . 100))
   "List of preferred fonts/sizes to use, in decreasing order of
 preference. We will use the first one that is available on the
 local machine. It is a list of pairs (font-name . font-size). If
